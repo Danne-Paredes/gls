@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+body, html {
+  height: 100vh;
+}
+   body {
+	margin:0;
+  background: url('/public/darkdenim3.png') repeat 0 0 #555;
+}
+
+
+ .logo {
+  background-image:url('/public/KV-Logo.png');
+  background-color: #333; /* Black background color */
+  /* border-style: solid;
+  border-color: black; */
+  box-shadow: 0 4px 8px 0 rgba(196,14,14,255), 0 6px 20px 0 rgba(196,14,14,255);
+
+  display: block;
+  margin: 42px auto 24px;
+  position: relative;
+  text-align: center;
+
+  height: 60%;
+}
+
+.logoCard {
+  width: 40%;
+  border-style: solid;
+  border-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  background-color: black;
+}
+
+.gButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  }
+
+.navbar {
+  direction:rtl;
+  background: lightgray;
+}
+
+.navbar li {
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
+  
+}
+
+  @media only screen and (max-width: 576px) {
+    .logoCard {
+      width: max-content;
+    }
+}

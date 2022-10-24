@@ -1,0 +1,45 @@
+[debug] [2022-10-20T17:29:34.217Z] ----------------------------------------------------------------------
+[debug] [2022-10-20T17:29:34.218Z] Command:       /usr/local/bin/node /usr/local/bin/firebase auth:import data.json --hash-key HMAC_SHA256 --project gls-prod
+[debug] [2022-10-20T17:29:34.218Z] CLI Version:   11.15.0
+[debug] [2022-10-20T17:29:34.219Z] Platform:      darwin
+[debug] [2022-10-20T17:29:34.219Z] Node Version:  v16.18.0
+[debug] [2022-10-20T17:29:34.221Z] Time:          Thu Oct 20 2022 10:29:34 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-10-20T17:29:34.221Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-20T17:29:34.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-20T17:29:34.224Z] > authorizing via signed-in user (dparedes@knighted.com)
+[debug] [2022-10-20T17:29:34.224Z] [iam] checking project gls-prod for permissions ["firebase.projects.get","firebaseauth.users.create","firebaseauth.users.update"]
+[debug] [2022-10-20T17:29:34.224Z] > refreshing access token with scopes: []
+[debug] [2022-10-20T17:29:34.225Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-10-20T17:29:34.225Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-20T17:29:34.427Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-10-20T17:29:34.427Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-20T17:29:34.470Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions [none]
+[debug] [2022-10-20T17:29:34.470Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions x-goog-quota-user=projects/gls-prod
+[debug] [2022-10-20T17:29:34.471Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions {"permissions":["firebase.projects.get","firebaseauth.users.create","firebaseauth.users.update"]}
+[debug] [2022-10-20T17:29:34.743Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions 200
+[debug] [2022-10-20T17:29:34.743Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions {"permissions":["firebase.projects.get","firebaseauth.users.create","firebaseauth.users.update"]}
+[warn] ⚠  No hash algorithm specified. Password users cannot be imported. 
+[debug] [2022-10-20T17:29:34.900Z] Error: ENOENT: no such file or directory, stat 'data.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-10-20T17:30:47.043Z] ----------------------------------------------------------------------
+[debug] [2022-10-20T17:30:47.044Z] Command:       /usr/local/bin/node /usr/local/bin/firebase auth:import data.json --hash-key HMAC_SHA256 --project gls-prod
+[debug] [2022-10-20T17:30:47.044Z] CLI Version:   11.15.0
+[debug] [2022-10-20T17:30:47.045Z] Platform:      darwin
+[debug] [2022-10-20T17:30:47.045Z] Node Version:  v16.18.0
+[debug] [2022-10-20T17:30:47.045Z] Time:          Thu Oct 20 2022 10:30:47 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-10-20T17:30:47.045Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-20T17:30:47.048Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-20T17:30:47.049Z] > authorizing via signed-in user (dparedes@knighted.com)
+[debug] [2022-10-20T17:30:47.049Z] [iam] checking project gls-prod for permissions ["firebase.projects.get","firebaseauth.users.create","firebaseauth.users.update"]
+[debug] [2022-10-20T17:30:47.050Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions [none]
+[debug] [2022-10-20T17:30:47.050Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions x-goog-quota-user=projects/gls-prod
+[debug] [2022-10-20T17:30:47.050Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions {"permissions":["firebase.projects.get","firebaseauth.users.create","firebaseauth.users.update"]}
+[debug] [2022-10-20T17:30:47.274Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions 200
+[debug] [2022-10-20T17:30:47.274Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gls-prod:testIamPermissions {"permissions":["firebase.projects.get","firebaseauth.users.create","firebaseauth.users.update"]}
+[warn] ⚠  No hash algorithm specified. Password users cannot be imported. 
+[debug] [2022-10-20T17:30:47.434Z] Error: ENOENT: no such file or directory, stat 'data.json'
+[error] 
+[error] Error: An unexpected error has occurred.
